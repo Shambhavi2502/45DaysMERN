@@ -1,0 +1,146 @@
+
+
+.sign-in button {
+    background-color: #00a9f8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.sign-in button:hover {background-color: #1a24a7;}
+
+.sign-in button:active {
+  background-color: #1a24a7;
+}
+
+
+
+body {
+    background-color: #ffffff;
+    font-family: sans-serif,Arial;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 3px 15px rgba(32, 32, 32, 0.1);
+    margin-top: -1.5vw;
+    height:6vw;
+}
+
+.logo img {
+    height: 35px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sign-in button {
+    background-color: #29a5de;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sign-in button:hover {
+    background-color: #005bb5;
+}
+
+nav a:hover
+ {
+    background-color: #f3f4f5;
+    padding: 7.5px;
+    
+    
+ }
+ 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #ffffff;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero-content {
+    width: 600px;
+}
+
+.hero-content img {
+    width: 70px;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+.hero-content h1 {
+    font-size: 2.7em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    letter-spacing:0.5px;
+}
+
+.download-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-image img {
+    width: 440px;
+    height: 410px;
+    margin-right: -11vw;
+}
+.download-btn:hover
+ {
+    background-color: #f8f9fd;
+    color:black;
+    border: 1px solid black;
+    font-weight: bolder;
+    border-width: 1.5px;
+    border-radius: 20px;
+ }
+ 
